@@ -5,7 +5,7 @@
     max-width: 100%;
 }
 body{
-    background-color: rgb(241, 145, 0);
+    background-color: black;
     margin: 0;
     color: rgb(255, 255, 255);
     font-family: 'Roboto Condensed', sans-serif;
@@ -106,8 +106,9 @@ Features
     justify-content: space-between;
 }
 .f-item{
-    flex-basis: 30%;
+    flex-basis: 50%;
     margin-bottom: 63px;
+
 }
 .f-title{
     color: white;
@@ -206,6 +207,7 @@ Project
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 footer{
