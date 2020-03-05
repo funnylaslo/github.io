@@ -248,11 +248,11 @@
             <div class="container">
                 <h2 class="s-title"></h2>
                 <div class="contact-block">
-                    <form action="" class="contact-form">
+                    <form action="" class="contact-form" onsubmit="sendRequest(); return false">
                         <h4 class="ft-title">Ответ в течение 30 минут</h4>
-                        <input type="text" class="input input-name" placeholder="Your Name">
-                        <input type="text" class="input input-phone" placeholder="Your Phone">
-                        <button class="button f-button" LANGUAGE="JavaScript" onclick="alert('Мы рады сотрудничать с вами, ваш запрос будет в скором времени обработан')">Связаться с нами</button>
+                        <input type="text" class="input input-name" placeholder="Your Name" required>
+                        <input type="tel" class="input input-phone" placeholder="Your Phone" required>
+                        <button type="submit" class="button f-button">Связаться с нами</button>
                     </form>
                     <div class="contacts-text">
                         <div class="contacts-data">
@@ -272,12 +272,12 @@
                         </div>
                     </div>
                     
-                </div>
+                </div>            
                 <div class="policy"><a href="#" class="contacts-policy">Политика конфиденциальности</a></div>
             </div>
         </footer>
-        </a>
-        
+    </a>
+
         
         <script src="js/wow.min.js"></script>
         <script src="js/swiper.min.js"></script>

@@ -10,3 +10,7 @@ var mySwiper = new Swiper('.swiper-container',{
         clickable: true
     },
 });
+
+function sendRequest() {
+    alert('Мы рады сотрудничать с вами, ваш запрос будет обработан в скором времени :-)')
+}
