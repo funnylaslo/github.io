@@ -12,27 +12,15 @@ var mySwiper = new Swiper('.swiper-container',{
 });
 
 function sendRequest() {
-    if (document.form[name]) {
-        
-    }
     alert('Мы рады сотрудничать с вами, ваш запрос будет обработан в скором времени :-)')
 };
 
 $(function(){
-    $("#phone").mask("+375(99)99-99-999");
-
-    $("#email").inputmask("email");
-    
+    $("#phone").mask("+375 (99) 99-99-999");
   });
-  
+
   window.onbeforeunload = function clear_() {
     document.getElementById('name').value='';
     document.getElementById('phone').value='';
     document.getElementById('email').value='';
     }
-
-
-//$(function(){    
-//    
-//  });
-//email mask
