@@ -251,7 +251,8 @@
                     <form action="" class="contact-form" onsubmit="sendRequest(); return false">
                         <h4 class="ft-title">Ответ в течение 30 минут</h4>
                         <input type="text" class="input input-name" placeholder="Your Name" required>
-                        <input type="tel" class="input input-phone" placeholder="Your Phone" required>
+                        <input type="tel" id="phone" class="input input-phone" placeholder="Your Phone" required>
+                        <input type="text" id="email" class="input input-email" placeholder="Your Email" required>
                         <button type="submit" class="button f-button">Связаться с нами</button>
                     </form>
                     <div class="contacts-text">
@@ -278,7 +279,9 @@
         </footer>
     </a>
 
-        
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/inputmask.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/swiper.min.js"></script>
         <script src="js/main.js"></script>

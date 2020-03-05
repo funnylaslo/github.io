@@ -13,4 +13,17 @@ var mySwiper = new Swiper('.swiper-container',{
 
 function sendRequest() {
     alert('Мы рады сотрудничать с вами, ваш запрос будет обработан в скором времени :-)')
-}
+};
+
+$(function(){
+    $("#phone").mask("+375(99)99-99-999");
+
+    $("#email").inputmask("email");
+
+  });
+
+  
+//$(function(){    
+//    
+//  });
+//email mask
